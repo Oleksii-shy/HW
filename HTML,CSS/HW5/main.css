@@ -1,0 +1,642 @@
+body {
+    margin: 0;
+}
+
+.header {
+    height: 130px;
+    background-color: #222220;
+}
+
+.height50 {
+    height: 50px;
+}
+
+.bound {
+    margin-top: 34px;
+    position: relative;
+}
+
+.width1500 {
+    width: 1500px;
+}
+
+.width1190 {
+    width: 1190px;
+}
+
+.display {
+    display: flex;
+}
+
+.justifycont {
+    justify-content: center;
+}
+
+.alignitm {
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    margin-left: 490px;
+    column-gap: 25px;
+}
+
+.linehgt50 {
+    line-height: 50px;
+}
+
+.menu a {
+    transition: color 400ms;
+}
+
+.menu a:hover {
+    color: #CB3B48;
+}
+
+.dopmenu {
+    display: none;
+    width: 150px;
+    height: auto;
+    background-color: #222220;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    box-sizing: border-box;
+    top: 37px;
+    left: 834px;
+    position: absolute;
+}
+
+.dopmenuitem {
+    border-bottom: 1px solid #2F2F2F;
+    padding-bottom: 5px;
+    margin: 9px 9px 0 9px;
+}
+
+.dopmenuitem:last-child {
+    border: none;
+}
+
+.menuitem:last-child:hover .dopmenu {
+    display: block;
+}
+
+.phone {
+    width: 50px;
+    background-color: #1B1B1B;
+    box-shadow: 0px 0px 15px rgba(189, 45, 67, 0.5);
+    border-radius: 8px;
+    margin-left: 42px;
+    transition: background-color 400ms;
+}
+
+.phone:hover {
+    background-color: #CB3B48;
+}
+
+.phone a {
+    font-size: 30px;
+}
+
+.colorwhite {
+    color: white;
+}
+
+.textdecor {
+    text-decoration: none;
+}
+
+.menubtnmob {
+    display: none;
+}
+
+.button {
+    width: 180px;
+    margin-left: 42px;
+    background-color: #CB3B48;
+    border: 1px solid #CB3B48;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition: background-color 400ms, box-shadow 400ms;
+}
+
+.button:hover {
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
+
+.button a {
+    display: block;
+    width: 180px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.transitioncolor {
+    transition: color 400ms;
+}
+
+.button a:hover {
+    color: #CB3B48;
+}
+
+.middleblock {
+    height: 400px;
+    background-color: #CB3B48;
+    background-image: url(images/Слой\ 4\ 2.svg);
+}
+
+.middlebound {
+    height: auto;
+}
+
+.discount h2 {
+    text-transform: uppercase;
+}
+
+.bigimg {
+    width: 225px;
+    height: 280px;
+}
+
+.bigimg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 33px;
+    position: relative;
+}
+
+.middlerow {
+    justify-content: space-between;
+    position: relative;
+}
+
+.posabs {
+    position: absolute;
+}
+
+.arrowleft {
+    top: 50%;
+    left: -30px;
+    transform: translateY(-50%);
+}
+
+.arrowleft a,
+.arrowright a {
+    font-size: 30px;
+}
+
+.arrowright {
+    top: 50%;
+    right: -30px;
+    transform: translateY(-50%);
+}
+
+.colorblack {
+    color: black;
+}
+
+.bigwhiteblock {
+    display: none;
+    width: 225px;
+    height: 280px;
+    border-radius: 33px;
+    background: rgba(252, 252, 252, 0.9);
+    position: absolute;
+    top: 0;
+}
+
+.bigwhiteblock a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #CB3B48;
+    font-size: 24px;
+    text-align: center;
+}
+
+.bigimg:hover .bigwhiteblock {
+    display: block;
+}
+
+.lowerblock {
+    background-color: #222220;
+    height: 1475px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.colorgrey {
+    color: #505050;
+}
+
+.marginl40 {
+    margin-left: 40px;
+}
+
+.mainmenured:hover {
+    color: #CB3B48;
+}
+
+.margint13 {
+    margin-top: 13px;
+}
+
+.firstrow {
+    column-gap: 81px;
+}
+
+.meals a {
+    text-decoration: none;
+    color: white;
+}
+
+.secondrow {
+    column-gap: 94px;
+    margin-top: 12px;
+}
+
+.meals a:hover {
+    color: #CB3B48;
+}
+
+.search {
+    width: 271px;
+    background: #222220;
+    border: 1px solid #B7B7B7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 33px;
+    position: relative;
+}
+
+.searchplace {
+    width: 219px;
+    height: 49px;
+    box-sizing: border-box;
+    padding-left: 23px;
+}
+
+.cube {
+    width: 50px;
+    height: 48.5px;
+    background: #CB3B48;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px #CB3B48;
+    border-radius: 0px 5px 5px 0px;
+    position: absolute;
+    top: -0.5px;
+    right: -0.5px;
+    transition: background-color 400ms, box-shadow 400ms;
+}
+
+.cube:hover {
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+}
+
+.cube a {
+    width: 50px;
+    height: 48.5px;
+    font-size: 25px;
+}
+
+.cube a:hover {
+    color: #CB3B48;
+}
+
+.settingsbutn {
+    background: #CB3B48;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px #CB3B48;
+    border-radius: 5px;
+    transition: background-color 400ms, box-shadow 400ms;
+}
+
+.settingsbutn:hover {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 15px #FFFFFF;
+}
+
+.width155 {
+    width: 155px;
+}
+
+.settings {
+    margin: 0 19px;
+}
+
+.settings:hover {
+    color: #CB3B48;
+}
+
+.settings i {
+    font-size: 25px;
+    margin: 0 19px 0 30px;
+}
+
+.margint35 {
+    margin-top: 35px;
+}
+
+.shots {
+    width: 186px;
+    height: 40px;
+    border: 1px solid #CB3B48;
+    box-sizing: border-box;
+    border-radius: 100px;
+    margin-left: 35px;
+}
+
+.price {
+    width: 150px;
+    height: 39px;
+}
+
+.price:hover {
+    color: #CB3B48;
+}
+
+.cancel {
+    width: 30px;
+}
+
+.cancel:hover {
+    color: #CB3B48;
+}
+
+.mealsmobile {
+    display: none;
+}
+
+.margint40 {
+    margin-top: 40px;
+}
+
+.cocktail {
+    width: 380px;
+    height: 189px;
+    background-image: url(images/Слой\ 4\ 1.svg);
+    background-color: #161615;
+    box-sizing: border-box;
+    border-radius: 25px;
+    position: relative;
+}
+
+.marginl33 {
+    margin-left: 33px;
+}
+
+.ingredients {
+    width: 265px;
+    height: 38px;
+    margin-top: 11px;
+}
+
+.ingredients p {
+    margin: 0;
+    color: #CB3B48;
+}
+
+.fonts36_margin0 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.margint20 {
+    margin-top: 20px;
+}
+
+.orderbtn {
+    width: 133px;
+    height: 40px;
+    background: #CB3B48;
+    border: 1px solid #CB3B48;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 53px;
+    transition: background-color 400ms;
+}
+
+.orderbtn:hover {
+    background-color: white;
+}
+
+.order {
+    width: 132px;
+    height: 39px;
+}
+
+.order:hover {
+    color: #CB3B48;
+}
+
+.lowbar {
+    width: 210px;
+    height: 9px;
+    background: #CB3B48;
+    border-radius: 25px 25px 0px 0px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cocktailmenu {
+    column-gap: 25px;
+}
+
+.cocktailpic {
+    width: 380px;
+    height: 582px;
+    background-image: url(images/Слой\ 4\ 1.svg);
+    background-color: #161615;
+    box-sizing: border-box;
+    border-radius: 25px;
+    position: relative;
+    transition: box-shadow 400ms;
+}
+
+.cocktailpic:hover {
+    box-shadow: 0px 0px 25px #CB3B48;
+}
+
+.margin20px0033px {
+    margin: 20px 0 0 33px;
+}
+
+.fonts20 {
+    font-size: 20px;
+}
+
+.cocktailpicgap {
+    margin-top: 50px;
+    column-gap: 25px;
+}
+
+.cocktailpicmob {
+    display: none;
+}
+
+.more {
+    width: 100%;
+    height: 167px;
+}
+
+.morebtn {
+    width: 194px;
+    height: 47px;
+    background-color: #CB3B48;
+    box-shadow: 0px 0px 15px #CB3B48;
+    border-radius: 100px;
+    transition: background-color 400ms, box-shadow 400ms;
+}
+
+.findmore {
+    width: 193px;
+    height: 46px;
+    border-radius: 100px;
+}
+
+.morebtn:hover {
+    background-color: white;
+    box-shadow: 0px 0px 15px white;
+}
+
+.findmore:hover {
+    color: #CB3B48;
+}
+
+.footer {
+    height: 160px;
+    background-image: url(images/Слой\ 4\ 2.svg);
+    background-color: #161615;
+}
+
+.footerbound {
+    height: 100px;
+    margin-top: 40px;
+}
+
+.footerlogo {
+    width: 320px;
+    height: 70px;
+}
+
+.marginl20 {
+    margin-left: 20px;
+}
+
+.fonts {
+    font-size: 14px;
+}
+
+.conditions a:hover {
+    color: white;
+}
+
+.nav a {
+    display: block;
+}
+
+.nav a:hover {
+    color: #CB3B48;
+}
+
+.columngap87 {
+    column-gap: 87px;
+}
+
+.marginl123 {
+    margin-left: 123px;
+}
+
+.middlefooter p {
+    font-size: 12px;
+    text-align: center;
+    margin: 38px;
+}
+
+.colorred {
+    color: #CB3B48;
+}
+
+.contacts {
+    margin-left: 105px;
+}
+
+.contacts h3 {
+    margin: 0;
+}
+
+.contacts h3 a:hover {
+    color: white;
+}
+
+.contacts p {
+    margin: 5px 0 0 60px;
+}
+
+.socialmedia {
+    column-gap: 16px;
+    padding-left: 157px;
+    margin-top: 10px;
+}
+
+.socialmedia a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.telegram {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #161615;
+}
+
+.telegram i {
+    font-size: 20px;
+    color: #CB3B48;
+    transition: background-color 400ms;
+}
+
+.whatsapp,
+.inst {
+    width: 25px;
+    height: 25px;
+    background-color: #CB3B48;
+}
+
+.whatsapp,
+.inst i {
+    font-size: 34px;
+    color: #161615;
+}
+
+.telegram:hover {
+    background-color: white;
+}
+
+.whatsapp i:hover {
+    color: white;
+}
+
+.inst i:hover {
+    color: white;
+}

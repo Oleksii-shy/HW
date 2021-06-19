@@ -1,0 +1,69 @@
+body {
+    margin: 0px;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+
+}
+
+.grandfather {
+    border: 6px solid black;
+    border-radius: 10px;
+}
+
+
+.mother {
+    display: flex;
+}
+
+.son1 {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 600px;
+    background-color: rgb(180, 243, 243);
+}
+
+.son1 h3 {
+    text-align: center;
+}
+
+
+.son2 {
+    height: 300px;
+    width: 400px;
+    background-color: rgb(180, 243, 243);
+}
+
+.inf {
+    display: flex;
+}
+
+.son2 img {
+    display: block;
+    height: 240px;
+    width: 200px;
+}
+
+.son2 h4 {
+    text-align: center;
+}
+
+.son2 p {
+    text-align: justify;
+    padding: 0 5px;
+}
+
+.son3 {
+    height: 300px;
+    width: 200px;
+    background-color: rgb(180, 243, 243);
+}
+
+.son3 h4 {
+    text-align: center;
+}

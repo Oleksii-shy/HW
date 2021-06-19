@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.head {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    background-color: skyblue;
+}
+
+.logo h2 {
+    color: green;
+}
+
+.prinav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 500px;
+    position: static;
+    background-color: slateblue;
+}
+
+.test {
+    height: 40px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 600px;
+    background-color: skyblue;
+}
+
+.alert {
+    height: 200px;
+    width: 600px;
+    position: relative;
+    background-color: skyblue;
+}
+
+.alert img {
+    height: 100%;
+    width: 100%;
+}
+
+.cross {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 17px;
+    width: 17px;
+    border: solid black 2px;
+    background-color: white;
+}
+
+.cross i {
+    padding-top: 2px;
+}
+
+.cross a {
+    text-decoration: none;
+    color: black;
+}
+
+.middle {
+    display: flex;
+}
+
+.left {
+    display: flex;
+}
+
+.cube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 150px;
+    background-color: skyblue;
+}
+
+.veget {
+    height: 190px;
+    width: 140px;
+}
+
+.veget img {
+    height: 100%;
+    width: 100%;
+}
+
+.large {
+    height: 400px;
+    width: 300px;
+    background-color: skyblue;
+}
+
+.foto {
+    height: 190px;
+    width: 290px;
+}
+
+.foto img {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+}
+
+.large p {
+    text-align: justify;
+    padding: 5px;
+}
+
+.small2 {
+    display: flex;
+}
+
+.large1 {
+    display: flex;
+    height: 400px;
+    width: 300px;
+    position: relative;
+    background-color: skyblue;
+}
+
+.large1 p {
+    text-align: justify;
+    padding: 30px 5px 5px 5px;
+}
+
+.foto1 {
+    height: 190px;
+    width: 290px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+.foto1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 600px;
+}
+
+.up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    border: solid black 2px;
+    border-radius: 2px;
+}
+
+.up a {
+    text-decoration: none;
+    color: black;
+}

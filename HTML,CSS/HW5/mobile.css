@@ -1,0 +1,339 @@
+@media screen and (max-width: 321px){
+    .displayno {
+        display: none;
+    }
+    
+    .header {
+        width: 320px;
+        height: 60px;
+    }
+
+    .bound {
+        width: 300px;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+    .logo {
+        width: 174px;
+        height: 39px;
+    }
+
+    .phone {
+        width: 40px;
+        height: 40px;
+        margin-left: 23px;
+    }
+
+    .phone a {
+        font-size: 20px;
+    }
+
+    .menubtnmob {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background-color: #1B1B1B;
+        box-shadow: 0px 0px 15px rgba(189, 45, 67, 0.5);
+        border-radius: 8px;
+        margin-left: 23px;
+    }
+
+    .menubtnmob a {
+        font-size: 20px;
+    }
+
+    .middleblock {
+        width: 320px;
+        height: 177px;
+    }
+
+    .middlebound {
+        width: 300px;
+    }
+
+    .discount h2 {
+        font-size: 18px;
+    }
+
+    .bigimg {
+        width: 83px;
+        height: 104px;
+    }
+
+    .bigimg img {
+        border-radius: 5px;
+    }
+
+    .bigimg:hover .bigwhiteblock {
+        display: none;
+    }
+
+    .lowerblock {
+        width: 320px;
+        height: auto;
+    }
+
+    .lowerbound {
+        width: 300px;
+        position: relative;
+    }
+
+    .mobilefonts16 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .mainmenuboxset {
+        width: 205px;
+        box-sizing: border-box;
+    }
+
+    .mainmenured:hover {
+        color: #505050;
+    }
+
+    .barcardboxset {
+        width: 160px;
+        box-sizing: border-box;
+        margin-left: 12px;
+    } 
+
+    .height30 {
+        height: 30px;
+    }
+
+    .search {
+        width: 194px;
+        height: 29px;
+        margin-left: 0;
+    }
+
+    .searchplace {
+        width: 163px;
+        height: 28px;
+    }
+
+    .cube {
+        width: 30px;
+        height: 27.5px;
+        top: -0.56px;
+        right: 0;
+    }
+
+    .cube:hover {
+        background: #CB3B48;
+        box-shadow: 0px 0px 15px #CB3B48;
+    }
+
+    .cube a {
+        width: 30px;
+        height: 28px;
+        font-size: 15px;
+    }
+
+    .cube a:hover {
+        color: white;
+    }
+
+    .settingsbutn {
+        width: 84px;
+        height: 29px;
+        position: absolute;
+        top: 44px;
+        right: 0;
+    }
+    
+    .settingsbutn:hover {
+        background-color: #CB3B48;
+        box-shadow: 0px 0px 15px #CB3B48;
+    }
+
+    .settingsbutn a {
+        width: 84px;
+        height: 29px;
+        font-size: 10px;
+        margin: 0 0 0 9px;
+    }
+
+    .settingsbutn i {
+        font-size: 10px;
+        margin: 0 9px 0 17px;
+    }
+
+    .settings:hover {
+        color: white;
+    }
+
+    .mealsmobile {
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+    }
+
+    .foodmobile {
+        width: auto;
+        height: 30px;
+        border-radius: 100px;
+        background-color: #161615;
+        box-sizing: border-box;
+        padding: 0 11px;
+        transition: background-color 400ms;
+    }
+
+    .foodmobile:hover {
+        background-color: #CB3B48;
+    }
+
+    .foodprice {
+        width: auto;
+        height: 29px;
+        
+    }
+
+    .foodprice:hover {
+        color: white;
+    }
+
+    .margintmob20 {
+        margin-top: 20px;
+    }
+
+    .cocktail {
+        width: 145px;
+        height: 142px;
+        border-radius: 8px;
+    }
+
+    .cocktail h3 {
+        font-size: 11px;
+    }
+
+    .margin20px0033px {
+        margin: 9px 0 0 6px;
+    }
+
+    .ingredients {
+        width: 107px;
+        height: 27px;
+        margin: 8px 0 0 6px;
+    }
+    
+    .ingredients p {
+        font-size: 8px;
+        margin: 0;
+        color: #CB3B48;
+    }
+
+    .cocktailpricemob {
+        margin-left: 6px;
+        position: relative;
+    }
+
+    .margint20 {
+        margin-top: 7px;
+    }
+
+    .fonts36_margin0 {
+        font-size: 26px;
+        margin: 0;
+    }
+
+    .orderbtn {
+        height: 23px;
+        margin: 19px 0;
+        position: absolute;
+        left: 0;
+        top: 16px;
+    }
+    
+    .orderbtn:hover {
+        background-color: #CB3B48;
+    }
+    
+    .order {
+        height: 22px;
+        font-size: 11px;
+    }
+    
+    .order:hover {
+        color: white;
+    }
+
+    .lowbar {
+        width: 80px;
+        height: 3px;
+        border-radius: 25px 25px 0px 0px;
+    }
+
+    .margint23 {
+        margin-top: 23px;
+    }
+
+    .margint39 {
+        margin-top: 39px;
+    }
+
+    .cocktailpicmob {
+        display: block;
+    }
+
+    .cocktailpicmob1 {
+        display: block;
+        width: 145px;
+        height: 324px;
+        background-image: url(images/Слой\ 4\ 1.svg);
+        background-color: #161615;
+        box-sizing: border-box;
+        border-radius: 8px;
+        position: relative;
+        top: 13px;
+    }
+
+    .cocktailpicmob2 {
+        display: block;
+        width: 145px;
+        height: 324px;
+        background-image: url(images/Слой\ 4\ 1.svg);
+        background-color: #161615;
+        box-sizing: border-box;
+        border-radius: 8px;
+        position: relative;
+        top: -646px;
+        right: -155px;
+    
+    }
+    .cocktailpicmob3 {
+        display: block;
+        width: 145px;
+        height: 324px;
+        background-image: url(images/Слой\ 4\ 1.svg);
+        background-color: #161615;
+        box-sizing: border-box;
+        border-radius: 8px;
+        position: relative;
+        top: -634px;
+        right: -155px;
+    }
+
+    .cocktailpicmob h3 {
+        font-size: 11px;
+    }
+
+    .marginl6t5 {
+        margin: 5px 0 0 6px;
+    }
+
+    .orderbtnmob {
+        position: absolute;
+        top: 260px;
+        left: 6px;
+    }
+
+    
+   
+
+   
+}

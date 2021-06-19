@@ -1,0 +1,48 @@
+.mid {
+    text-align: center;
+}
+
+.item {
+    width: 300px;
+    margin: 30px;
+
+}
+
+.text {
+    text-align: justify;
+    padding: 0px 10px;
+    border-left: 2px solid silver;
+}
+
+.wrapfirstrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapsecondrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wraproles {
+    padding: 0;
+    text-align: center;
+
+}
+
+.wrapthirdrow {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.center {
+    text-align: center;
+}
